@@ -13,6 +13,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/j_login"
             android:layout_width="match_parent"
@@ -26,6 +27,8 @@
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>
 
+
+
         <EditText
             android:id="@+id/email"
             android:layout_width="match_parent"
@@ -34,6 +37,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:hint="Email"
+            android:drawableStart="@drawable/user"
             android:inputType="textEmailAddress"
             android:textColorHint="#606060"
             android:textSize="15sp"
@@ -49,6 +53,7 @@
             android:layout_marginEnd="20dp"
             android:layout_marginTop="20dp"
             android:hint="Password"
+            android:drawableStart="@drawable/lock_24px"
             android:inputType="textPassword"
             android:textColorHint="#606060"
             android:textSize="15sp"
@@ -66,7 +71,8 @@
             android:textColor="#FFFF"
             android:layout_gravity="center"
             android:layout_marginTop="13dp"
-            android:backgroundTint="#273c75"/>
+            android:backgroundTint="#273c75"
+            />
 
     </LinearLayout>
 </RelativeLayout>

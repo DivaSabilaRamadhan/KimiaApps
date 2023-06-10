@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1002082897928",
+    "project_id": "kimiaapps-e4abd",
+    "storage_bucket": "kimiaapps-e4abd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1002082897928:android:6b698dcec39f6dde70c1bd",
+        "android_client_info": {
+          "package_name": "com.example.kimiaapps"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1002082897928-oapab4sk1j1nm81ujaufcelvj6n8dc4i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjNrdmUf9lrNisXpBVwdTeYkdWHKCHnTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1002082897928-oapab4sk1j1nm81ujaufcelvj6n8dc4i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -4,12 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Materi"
     >
     <View
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@android:color/holo_blue_dark" />
+        android:background="@android:color/holo_blue_dark"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Materi Pembelajaran Kimia Kelas x"
+        android:textAlignment="center"
+        android:textSize="23sp"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp">
+
+    </TextView>
+
 
     <androidx.cardview.widget.CardView
         xmlns:card_view="http://schemas.android.com/apk/res-auto"
@@ -37,33 +49,42 @@
                 />
 
             <Button
-                android:id="@+id/btn_materi"
+                android:id="@+id/btn_bab1"
                 android:backgroundTint="#273c75"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginRight="40dp"
                 android:layout_marginLeft="40dp"
-                android:text="materi"/>
+                android:text="materi bab 1"/>
 
             <Button
-                android:id="@+id/btn_latihan"
+                android:id="@+id/btn_bab2"
                 android:backgroundTint="#273c75"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginRight="40dp"
                 android:layout_marginLeft="40dp"
-                android:text="latihan soal"
-
+                android:text="materi bab 2"
                 />
 
             <Button
-                android:id="@+id/btn_simulasi"
+                android:id="@+id/btn_bab3"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:backgroundTint="#273c75"
                 android:layout_marginRight="40dp"
                 android:layout_marginLeft="40dp"
-                android:text="simulasi"
+                android:text="materi bab 3"
+                />
+
+            <Button
+                android:id="@+id/btn_bab4"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#273c75"
+                android:layout_marginRight="40dp"
+                android:layout_marginLeft="40dp"
+                android:text="materi bab 3"
                 />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
