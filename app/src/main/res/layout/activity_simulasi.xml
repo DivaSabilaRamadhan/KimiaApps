@@ -1,29 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFF"
-    tools:context=".Materi"
-    >
+    tools:context=".simulasi">
+    
     <View
         android:layout_width="match_parent"
         android:layout_height="250dp"
-        android:background="@android:color/holo_blue_dark"
-        />
+        android:background="@android:color/holo_blue_dark"/>
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Materi Pembelajaran Kimia Kelas x"
+        android:text="Simulasi"
         android:textAlignment="center"
         android:textColor="#FFFF"
-        android:textSize="23sp"
-        android:textStyle="bold"
-        android:layout_marginTop="40dp">
-
-    </TextView>
-
+        android:textSize="25sp"
+        android:layout_marginTop="40dp"/>
 
     <androidx.cardview.widget.CardView
         android:id="@+id/card_photo"
@@ -53,24 +50,14 @@
                 app:shapeAppearanceOverlay="@style/Circular" />
 
             <Button
-                android:id="@+id/btn_bab1"
+                android:id="@+id/btn_simulasi1"
                 android:layout_width="match_parent"
                 android:layout_height="60dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                android:backgroundTint="#273c75"
                 android:textColor="#FFFF"
-                android:text="materi bab 1" />
-
-            <Button
-                android:id="@+id/btn_bab2"
-                android:layout_width="match_parent"
-                android:layout_height="60dp"
-                android:layout_marginLeft="40dp"
-                android:layout_marginRight="40dp"
                 android:backgroundTint="#273c75"
-                android:textColor="#FFFF"
-                android:text="materi bab 2" />
+                android:text="simulasi struktur atom" />
 
             <Button
                 android:id="@+id/btn_bab3"
@@ -80,7 +67,7 @@
                 android:layout_marginRight="40dp"
                 android:backgroundTint="#273c75"
                 android:textColor="#FFFF"
-                android:text="materi bab 3" />
+                android:text="Hukum dasar kimia" />
 
             <Button
                 android:id="@+id/btn_bab4"
@@ -88,9 +75,10 @@
                 android:layout_height="60dp"
                 android:layout_marginLeft="40dp"
                 android:layout_marginRight="40dp"
-                android:backgroundTint="#273c75"
                 android:textColor="#FFFF"
-                android:text="materi bab 3" />
+                android:backgroundTint="#273c75"
+                android:text="Simulasi alat praktikum" />
         </LinearLayout>
     </androidx.cardview.widget.CardView>
+
 </RelativeLayout>

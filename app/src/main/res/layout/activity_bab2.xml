@@ -6,9 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFF"
-    tools:context=".BAB1">
+    tools:context=".BAB2">
     <TextView
-        android:id="@+id/jdl_bab1"
+        android:id="@+id/jdl_bab2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Kimia HIjau dalam Pembangunan Berkelanjutan"
@@ -34,26 +34,26 @@
             android:layout_marginBottom="30dp"
             >
             <Button
-                android:id="@+id/btn_prev"
+                android:id="@+id/btn_prev2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:stateListAnimator="@null"
                 android:backgroundTint="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/btn_next"
+                app:layout_constraintEnd_toStartOf="@+id/btn_next2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:drawableEnd="@drawable/chevron_left_100px"
                 />
 
             <Button
-                android:id="@+id/btn_next"
+                android:id="@+id/btn_next2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text=""
                 android:stateListAnimator="@null"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toStartOf="@+id/btn_prev"
+                app:layout_constraintEnd_toStartOf="@+id/btn_prev2"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 android:backgroundTint="@color/white"
@@ -61,7 +61,7 @@
         </LinearLayout>
 
         <Button
-            android:id="@+id/btn_mb1"
+            android:id="@+id/btn_mb2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="kembali"
